@@ -1,0 +1,67 @@
+.content-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navbar {
+  background-color: #901cad;
+}
+.navbar-toggler {
+  margin-left: auto;
+}
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: non;
+  padding: 10px;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+  border: solid #901cad;
+}
+.reserve-campsite-button {
+  margin-left: auto;
+}
+body {
+  /*background-color: #901cad;*/
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+}
+h2 {
+  color: #3046c5;
+}
+header h2 {
+  color: #cec8ff;
+}
+img {
+  border: solid #901cad;
+}
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 300px;
+}
+address {
+  font-style: normal;
+}
+
+/*
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; --repeat(3, 1fr); or 1fr 3fr; or repeat(3, minmax(200px, 1fr))
+  gap: 15px;
+}
+.row-content {
+  -- default: single column for small screens 
+  padding: 50px 0;
+}
+.my-element {
+  order: 1;
+}
+*/

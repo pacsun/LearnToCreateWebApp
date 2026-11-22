@@ -1,0 +1,63 @@
+$color-primary: #6272ca;
+$color-secondary: #8979ce;
+$color-pale: #cec8ff;
+$color-mid: #a571b3;
+$color-dark: #60106b;
+$color-black-transparent: rgba(12, 12, 12, 0);
+$color-teal: #7ec3ce;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+.chelvy_pic {
+  border-top: non;
+}
+.intro {
+  padding: 0px 50px;
+}
+
+.navbar {
+  background-color: $color-mid;
+}
+.navbar-toggler {
+  margin-left: auto;
+}
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: non;
+  padding: 10px;
+}
+.carousel-caption {
+  background-color: $color-black-transparent;
+}
+.hobbies {
+  background-color: #0a0a0a;
+  .carousel {
+    border: solid $color-secondary;
+    h3 {
+      color: #ddd;
+    }
+  }
+}
+
+body {
+  font-family: $body-font;
+}
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+}
+h2 {
+  color: $color-primary;
+}
+header {
+  h2 {
+    color: $color-pale;
+  }
+}
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}

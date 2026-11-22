@@ -1,0 +1,65 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17a2b8;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+.content-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navbar {
+  background-color: $color-mid;
+}
+.navbar-toggler {
+  margin-left: auto;
+}
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: non;
+  padding: 10px;
+}
+.carousel-caption {
+  background-color: $color-black-transparent;
+}
+.carousel {
+  border: solid $color-secondary;
+}
+.reserve-campsite-button {
+  margin-left: auto;
+}
+body {
+  /*background-color: #901cad;*/
+  font-family: $body-font;
+}
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+}
+h2 {
+  color: $color-primary;
+}
+header {
+  h2 {
+    color: $color-pale;
+  }
+}
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+address {
+  font-style: normal;
+}
+
+@import "modal";
+@import "review-section";

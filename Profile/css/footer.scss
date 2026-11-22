@@ -1,0 +1,23 @@
+@use "styles" as *;
+.footer {
+  background-image: linear-gradient($color-pale, $color-secondary);
+  padding: 10px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: start;
+  text-align: left;
+  padding: 0px 100px;
+}
+
+.footer-social {
+  text-align: left;
+}
+
+.footer-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,33 @@
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: start;
+    text-align: center;
+}
+.site-footer {
+    background-image: linear-gradient(#bde439, rgb(67, 71, 7));
+    padding: 20px 0;
+    color: white;
+}
+.footer-links {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.64);
+    border-radius: 10px;
+}
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-contact {
+    background-color:white;
+    background-color:rgba(0, 0, 0, 0.64);
+    padding-top:10px;
+    border-radius: 10px;
+}
+.footer-social {
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.64);
+}

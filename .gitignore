@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/coffeeshop/.parcel-cache
+/coffeeshop/dist
+/coffeeshop/node_modules
+/Profile/.parcel-cache
+/coffeeshop/css/styles.scss
+/Nucampsite/.parcel-cache
+/Nucampsite/dist
+/Nucampsite/img/img (1)/__MACOSX
+/Nucampsite/node_modules
+/Profile/dist
+/Profile/node_modules
